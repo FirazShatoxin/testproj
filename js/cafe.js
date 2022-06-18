@@ -304,6 +304,9 @@
         success: function(result) {
           onCallback && onCallback(result);
         },
+        error: function(xhr) {
+          onCallback && onCallback(xhr);
+        }
       });
     }
   };
