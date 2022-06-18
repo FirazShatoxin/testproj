@@ -305,7 +305,7 @@
           onCallback && onCallback(result);
         },
         error: function(xhr) {
-          onCallback && onCallback(xhr);
+          onCallback && onCallback(result);
         }
       });
     }
